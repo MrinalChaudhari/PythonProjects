@@ -1,3 +1,7 @@
+"""Linked lists are linear data structures that hold data in individual objects called nodes.
+These nodes hold both the data and a reference to the next node in the list.
+Linked lists are often used because of their efficient insertion and deletion."""
+
 class Node:
     def __init__(self, data=None, next=None):
         self.data = data

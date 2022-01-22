@@ -1,3 +1,10 @@
+"""In computing, binary trees are mainly used for searching and sorting as they provide a means to store data hierarchically.
+Some common operations that can be conducted on binary trees include insertion, deletion,sorting and traversal."""
+
+""" Implementing a binary search tree is useful in any situation where the elements can be compared in a less than / greater than manner. 
+For our example, we'll use alphabetical order as our criteria for whether an element is greater than or less than another element"""
+
+
 class BinarySearchTreeNode:
     def __init__(self, data):
         self.data = data
